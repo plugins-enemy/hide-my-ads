@@ -1,0 +1,28 @@
+<html>
+   <head>
+      <title i18n="optionstitle"></title>
+      <link rel="stylesheet" href="options.css" />
+      <link rel="stylesheet" href="../jquery/css/jquery-ui.custom.css" />
+      <script src="../jquery/jquery.min.js"></script>
+      <script src="../port.js"></script>
+      <script src="../jquery/jquery.cookie.js"></script>
+      <script src="../jquery/jquery-ui.custom.min.js"></script>
+      <script src="../functions.js"></script>
+   </head>
+   <body style="text-align: center;">
+      <div id="centerpage">
+         <div class="noticecontainer">
+            <div class="notice" id="safari50_updatenotice" i18n="safari50_updatenotice" i18n_replacement_el="safari50_update_link"></div>
+            <a id="safari50_update_link" href="https://www.apple.com/safari/" target="_blank"></a>
+         </div>
+         <div id="tabpages">
+            <ul>
+               <li><a href="general.html" data-scripts="general.js"><span i18n="tabgeneral"></span></a></li>
+               <li><a href="filters.html" data-scripts="filters.js"><span i18n="tabfilterlists"></span></a></li>
+               <li><a href="customize.html" data-scripts="../filtering/domainset.js ../filtering/filternormalizer.js ../filtering/filtertypes.js ../filtering/filteroptions.js customize.js"><span i18n="tabcustomize"></span></a></li>
+            </ul>
+         </div>
+      </div>
+      <script src="index.js"></script>
+   </body>
+</html>

@@ -1,0 +1,146 @@
+body {
+  color: black;
+  background: #fff;
+}
+
+#main {
+    width: 320px;
+    font-family: "Arial", sans-serif;
+	background:#f3f3f3;
+	-webkit-border-radius:7px;
+	-moz-border-radius:7px;
+	border-radius:7px;
+	padding:0 15px;
+	border:1px solid #ccc;
+	-webkit-box-shadow:0 2px 0 rgba(0,0,0, .2);
+	-moz-box-shadow:0 2px 0 rgba(0,0,0, .2);
+	box-shadow:0 2px 0 rgba(0,0,0, .2)
+}
+
+#wrapper {
+  margin: 0px 0px;
+  width: 275px;
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.separator {
+  width: 100%;
+  border-top: 2px groove white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: -5px;
+  margin-right: -8px;
+}
+
+.menu-entry {
+  cursor:pointer;
+}
+
+.menu-entry:hover {
+  background: #FF99CC;
+}
+
+.info {
+  background: #dddddd;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#titletext {
+  padding: 8px 8px 8px 0px;
+  text-align: right;
+}
+#titletext span {
+  font-weight: bold;
+  cursor: default;
+}
+#titletext span:hover {
+  text-decoration: underline;
+}
+
+.box {
+  margin: 5px 5px 5px 0px;
+  background: #fff;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#link_open {
+  padding-bottom: 3px;
+}
+
+#link_close {
+  margin: -7px 0px 0px 0px;
+  font-family: "Courier", sans-serif;
+}
+
+#block_counts {
+  display: none;
+  margin-bottom: 1em;
+}
+.header {
+  font-weight: bold;
+}
+.block_count_number {
+  font-weight: bold;
+  color: red;
+}
+#block_counts_controls {
+  margin-top: 1em;
+}
+
+#ce-xtra-bx {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #000;
+}
+#ce-rating {
+  background-color: #FF3399;
+  margin-left: -5px;
+  padding: 20px 5px;
+  margin-bottom: 10px;
+}
+#ce-rating > a {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;
+  outline: none;
+}
+#ce-rating:hover {
+  background-color: #FF3399;
+}
+#ce-rating:hover > a {
+  color: #FFF;
+}
+#ce-text {
+  float: left;
+  width: 30%;
+  height: 20px;
+  padding: 5px 0px;
+  line-height: 20px;
+  overflow: hidden;
+  font-weight: bold;
+}
+#ce-facebook {
+  float: left;
+  width: 35%;
+  height: 20px;
+  padding: 5px 0px;
+  overflow: hidden;
+}
+#ce-gplus {
+  float: left;
+  width: 35%;
+  height: 20px;
+  padding: 5px 0px;
+  overflow: hidden;
+}
+
